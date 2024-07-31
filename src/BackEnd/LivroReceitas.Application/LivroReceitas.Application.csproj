@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Shared\LivroReceitas.Communication\LivroReceitas.Communication.csproj" />
+      <ProjectReference Include="..\..\Shared\LivroReceitas.Exceptions\LivroReceitas.Exceptions.csproj" />
+      <ProjectReference Include="..\LivroReceitas.Domain\LivroReceitas.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
